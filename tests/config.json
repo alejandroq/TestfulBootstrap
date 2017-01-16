@@ -1,0 +1,10 @@
+{
+    "test"            : "http://alexq.me/",
+    "local"           : "localhost url",
+    "dev"             : "dev url",
+    "stage"           : "stage url",
+    "production"      : "prod url",
+
+    "testing"         : "test",
+    "browser"         : "phantomjs"
+}
