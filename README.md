@@ -1,18 +1,19 @@
 # Generic Tests
-Functional Tests for [FOOBAR] application. 
+Bootstrap a functional testing suite. Arrives with Selenium WebDriver & Testful.API (a Selenium wrapper). 
+Written in Python.
 
-# Directory Structure
-<!-- tba -->
+## Directory Structure
+tba
 
 ## Dependencies
 - pip 
--- pytest
--- selenium
--- virtualenv
-optional:
-- homebrew
--- chromedriver 
--- phantomjs
+ - pytest
+ - selenium
+ - virtualenv
+
+- homebrew OPTIONAL
+ - chromedriver OPTIONAL
+ - phantomjs OPTIONAL
 
 ## Getting Started
 ### Install
@@ -29,7 +30,7 @@ sudo pip install virtualenv
 Pull repository and setup Virtual Env.:
 ```sh
 git clone https://github.com/alejandroq/TestfulBootstrap.git
-virtualenv https://github.com/alejandroq/TestfulBootstrap.git 
+virtualenv $ROOTDIR (def. TestfulBootstrap) 
 ```
 
 Once Virtual Env. is Activated (next section):
@@ -61,22 +62,23 @@ source bin/activate
     "browser"  : "chrome"
 }
 
-// TODO: enable cli arg [optionals] to allow for 
-// for calls within cli
-// browser options (dependent upon above installations):
+// TODO: enable cli args to allow for 
+// for calls within cli browser options 
+// (dependent upon above installations):
 chrome, phantomjs and firefox
 ```
 ### How to:
-"option 1" : "option 1 url"
-ex. "dev"  : "http://alexq.dev.me"
+"option 1":"option 1 url"
 
-given ex. above - "testing"  : "dev", will set WebDriver to instantiate for "http://alexq.dev.me"
+ex. "dev":"http://alexq.dev.me"
+
+given ex. above - "testing":"dev", will set WebDriver to instantiate at "http://alexq.dev.me"
 
 ### Note: 
-PhantomJS is for Headless Functional Testing.
+[PhantomJS](http://phantomjs.org/) is for Headless Functional Testing.
 
 ### Trello:
-<!-- tba -->
+tba
 
 ## To Use:
 To Run Tests (once Virtual Env is activated):
@@ -85,7 +87,7 @@ python $ROOTDIR/tests/main.py [optionals tba]
 ```
 
 ## Writing Tests:
-<!-- tba -->
+tba
 
 ## Resources:
 [py.test docs](http://doc.pytest.org/en/latest/contents.html)
