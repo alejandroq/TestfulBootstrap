@@ -1,4 +1,4 @@
-# Generic Tests
+# Automated Functional Tests
 Bootstrap a functional testing suite. Arrives with Selenium WebDriver & Testful.API (a Selenium wrapper). 
 Written in Python.
 
