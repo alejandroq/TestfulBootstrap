@@ -90,5 +90,5 @@ python $ROOTDIR/tests/main.py [optionals tba]
 tba
 
 ## Resources:
-[py.test docs](http://doc.pytest.org/en/latest/contents.html)
+[py.test docs](http://doc.pytest.org/en/latest/contents.html) | 
 [selenium python docs](http://selenium-python.readthedocs.io/)
